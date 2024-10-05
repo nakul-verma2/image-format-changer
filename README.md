@@ -1,48 +1,51 @@
-🖼️ Telegram Image Format Converter Bot
-🚀 Telegram Bot for Image Format Conversion using the Telethon library and PIL (Pillow) 🧑‍💻. This bot allows users to easily convert images between various formats directly within Telegram!
+# 🖼️ Telegram Image Format Converter Bot
 
-✨ Features
-🌟 Supports multiple image formats: JPEG, JPG, PNG, and WEBP.
-📥 Effortless Image Upload: Users can send images directly to the bot, which will automatically handle the conversion.
-📲 Interactive UI: The bot provides a user-friendly interface with buttons to start the conversion process.
-🔄 Automated Conversion Process: The bot checks the format of the uploaded image and guides the user to select the desired output format.
-✅ Error handling: Provides feedback on unsupported formats and failed conversions.
-🛠️ Installation
-Clone the repository:
+🚀 **Telegram Bot for Image Format Conversion** using the Telethon library and PIL (Pillow) 🧑‍💻. This bot allows users to easily convert images between various formats directly within Telegram!
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repo-name.git
-Install the dependencies:
+## ✨ Features
+- 🌟 **Supports multiple image formats:** JPEG, JPG, PNG, and WEBP.
+- 📥 **Effortless Image Upload:** Users can send images directly to the bot, which will automatically handle the conversion.
+- 📲 **Interactive UI:** The bot provides a user-friendly interface with buttons to start the conversion process.
+- 🔄 **Automated Conversion Process:** The bot checks the format of the uploaded image and guides the user to select the desired output format.
+- ✅ **Error handling:** Provides feedback on unsupported formats and failed conversions.
 
-bash
-Copy code
-pip install -r requirements.txt
-Configure your bot token, api_id, and api_hash in the script.
+## 🛠️ Installation
 
-Run the bot:
+1. Clone the repository:
+   ```bash git clone https://github.com/your-username/your-repo-name.git```
+3. Install the dependencies:
+  ```bash pip install -r requirements.txt```
+4. Configure your bot token, api_id, and api_hash in the script:
+  ```python
+    bot_token = "your-bot-token"
+    api_id = "your-api-id"
+    api_hash = "your-api-hash"
+  ```
+6. Run the bot:
+```bash python bot.py```
 
-bash
-Copy code
-python bot.py
-⚙️ Usage
-Send /start to begin interacting with the bot.
-Upload an image and select the format you want to convert it to.
-The bot will send you the converted image in the format of your choice!
-🔧 Supported Formats
-JPEG
-JPG
-PNG
-WEBP
-🤖 Technologies Used
-Telethon: For interacting with the Telegram API.
-Pillow (PIL): For image processing.
-💬 Commands
-/start: Begin interaction with the bot.
-/Help: Provides information on supported formats and usage instructions.
-/Change Format Of An Image: Convert images to another format.
-🎉 Contributing
+## ⚙️ Usage
+- Send `/start` to begin interacting with the bot.
+- Upload an image and select the format you want to convert it to.
+- The bot will send you the converted image in the format of your choice!
+
+## 🔧 Supported Formats
+- JPEG
+- JPG
+- PNG
+- WEBP
+- 
+## 🤖 Technologies Used
+- [Telethon](https://github.com/LonamiWebs/Telethon): For interacting with the Telegram API.
+- [Pillow (PIL)](https://pillow.readthedocs.io/): For image processing.
+
+##💬 Commands
+- `/start`: Begin interaction with the bot.
+- `/Help`: Provides information on supported formats and usage instructions.
+- `/Change Format Of An Image`: Convert images to another format.
+
+##🎉 Contributing
 Feel free to open issues or submit pull requests to enhance the functionality of the bot.
 
-📜 License
+##📜 License
 This project is licensed under the MIT License.
