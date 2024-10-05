@@ -34,7 +34,7 @@
 - JPG
 - PNG
 - WEBP
-- 
+
 ## 🤖 Technologies Used
 - [Telethon](https://github.com/LonamiWebs/Telethon): For interacting with the Telegram API.
 - [Pillow (PIL)](https://pillow.readthedocs.io/): For image processing.
