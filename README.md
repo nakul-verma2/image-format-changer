@@ -12,17 +12,19 @@
 ## 🛠️ Installation
 
 1. Clone the repository:
-   ```bash git clone https://github.com/your-username/your-repo-name.git```
+   ```bash
+      git clone https://github.com/your-username/your-repo-name.git
 3. Install the dependencies:
-  ```bash pip install -r requirements.txt```
+  ``bash
+`pip install -r requirements.txt`
 4. Configure your bot token, api_id, and api_hash in the script:
-  ```python
-    bot_token = "your-bot-token"
+  ``python
+    `bot_token = "your-bot-token"
     api_id = "your-api-id"
-    api_hash = "your-api-hash"
-  ```
-6. Run the bot:
-```bash python bot.py```
+    api_hash = "your-api-hash"`
+5. Run the bot:
+``bash
+   `python bot.py`
 
 ## ⚙️ Usage
 - Send `/start` to begin interacting with the bot.
@@ -39,13 +41,13 @@
 - [Telethon](https://github.com/LonamiWebs/Telethon): For interacting with the Telegram API.
 - [Pillow (PIL)](https://pillow.readthedocs.io/): For image processing.
 
-##💬 Commands
+## 💬 Commands
 - `/start`: Begin interaction with the bot.
 - `/Help`: Provides information on supported formats and usage instructions.
 - `/Change Format Of An Image`: Convert images to another format.
 
-##🎉 Contributing
+## 🎉 Contributing
 Feel free to open issues or submit pull requests to enhance the functionality of the bot.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
