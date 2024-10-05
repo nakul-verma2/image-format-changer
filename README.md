@@ -59,4 +59,4 @@
 Feel free to open issues or submit pull requests to enhance the functionality of the bot.
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT [License](https://github.com/nakul-verma2/image-format-changer/blob/main/LICENSE).
