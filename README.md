@@ -12,17 +12,15 @@
 ## 🛠️ Installation
 
 1. Clone the repository:
-   ```bash
-      git clone https://github.com/your-username/your-repo-name.git
+   ```bash git clone https://github.com/your-username/your-repo-name.git ```
 3. Install the dependencies:
-  ```bash pip install -r requirements.txt
+  ```bash pip install -r requirements.txt```
 4. Configure your bot token, api_id, and api_hash in the script:
-  ```python
-    bot_token = "your-bot-token"
-    api_id = "your-api-id"
-    api_hash = "your-api-hash"```
+   ```python bot_token = "your-bot-token"```
+       ```api_id = "your-api-id"```
+      ``` api_hash = "your-api-hash" ```
 5. Run the bot:
-```bash python bot.py
+```bash python bot.py```
 
 ## ⚙️ Usage
 - Send `/start` to begin interacting with the bot.
